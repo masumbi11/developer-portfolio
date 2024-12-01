@@ -48,14 +48,35 @@ nav a{
 }
 /* header css */
 .header{
+    padding: 30px 30px 0px 150px;
     background-color: #FFF8F3;
-    padding: 30px 30px 30px 150px;
-    
+    background-image: url(../images/header_bg.png); 
+    background-position: right bottom; 
+    background-repeat: no-repeat;
+     
 }
-.banner{
+.banner{ 
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    width: 500px;
 }
 .banner-prfil{
     width: 500px;
     }
+.banner-geatin{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-titel{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom:0;
+}
+.banner-descption{
+    margin-top: 5px;
+}
