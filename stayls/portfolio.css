@@ -25,6 +25,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 .navmary{
      color: black;
@@ -45,3 +46,16 @@ nav a{
     text-decoration: none;
     color: #474747;
 }
+/* header css */
+.header{
+    background-color: #FFF8F3;
+    padding: 30px 30px 30px 150px;
+    
+}
+.banner{
+    display: flex;
+    align-items: center;
+}
+.banner-prfil{
+    width: 500px;
+    }
