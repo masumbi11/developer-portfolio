@@ -92,10 +92,31 @@ nav a{
     margin-top: 5px;
 }
 /* mine section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* abut section */
 .abut{
     margin: 150px;
     border-radius: 10px;
     border-color: #FFF8F3;
-    margin: 130px;
 }
+.abut-info-containar{
+    display: flex;
+    justify-content: space-between;
+}
+.abut-info{
+    text-align: center;
+}
+.info-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+}
+.info-description{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+}
+
