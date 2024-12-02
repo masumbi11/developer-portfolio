@@ -182,9 +182,26 @@ main{
     justify-content: center;
 }
  /* footer stayls */
+ .sosal-link >a {
+     margin-left:25px ;
+ }
 .footer-continar{
     display: flex;
+    gap: 100px;
     background-color: #FFF8F3;
     margin-top: 100px;
     padding: 130px 200px;
+}.footer-colams{
+    width: 50%;
 }
+.form-content > input,textarea{
+    background-color: #fff;
+    color: #757575;
+    display: block;
+    margin-top: 25px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
+}
+
