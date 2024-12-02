@@ -149,8 +149,34 @@ main{
 .Resume-colams-2{
     display: flex;
     justify-content: space-between;
+    gap: 50px
+    ;
+}
+.Resume-colams{
+    justify-content: space-between
+}
+.Resume-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.Resume-isteteut{
+    font-size: 20px;
+    font-weight: 700;
+    color: #757575;
+    margin-bottom: 20px;
+    margin-top: 0;
+ 
+}
+.Resume-itame-desception{
+    color: #757575; 
+    font-size: 16px;
+    font-weight: 400;
+}
+.dawmlod-cv{
+    text-align: center;
 }
 .Resume-baton{
-    align-content: ;
+    justify-content: center;
 }
- 
